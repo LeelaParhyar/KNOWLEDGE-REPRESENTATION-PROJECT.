@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2025/2/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2025/2/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/hp/ontologies/2025/2/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Advanced_Encryption_Standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anonymization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biometric_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collection_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cookies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Encryption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ditital_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educational_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encryption_Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Financial_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manual_Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPT_Out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personal_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peseudonymization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privacy_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privacy_Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privacy_Setting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privacy_tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purpose_of_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right_to_Access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right_to_Esasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rivest-Shamir-Adleman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensitive_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Survey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Webform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#privacy_policy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Advanced_Encryption_Standard"/>
+        <Class IRI="#Data_Encryption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anonymization"/>
+        <Class IRI="#Data_Protection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biometric_Data"/>
+        <Class IRI="#Sensitive_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collection_Method"/>
+        <Class IRI="#Data_Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cookies"/>
+        <Class IRI="#Ditital_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Collection"/>
+        <Class IRI="#privacy_policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Encryption"/>
+        <Class IRI="#Data_Protection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Usage"/>
+        <Class IRI="#privacy_policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ditital_Data"/>
+        <Class IRI="#Collection_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educational_Data"/>
+        <Class IRI="#Sensitive_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#Personal_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encryption_Tools"/>
+        <Class IRI="#Privacy_tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Financial_Data"/>
+        <Class IRI="#Sensitive_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Form"/>
+        <Class IRI="#Manual_Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <Class IRI="#Encryption_Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Data"/>
+        <Class IRI="#Sensitive_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manual_Collection"/>
+        <Class IRI="#Collection_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Personal_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPT_Out"/>
+        <Class IRI="#Privacy_Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personal_Data"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peseudonymization"/>
+        <Class IRI="#Anonymization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Privacy_Control"/>
+        <Class IRI="#Privacy_Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Privacy_Setting"/>
+        <Class IRI="#Privacy_tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purpose_of_Data"/>
+        <Class IRI="#Data_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right_to_Access"/>
+        <Class IRI="#Privacy_Right"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right_to_Esasure"/>
+        <Class IRI="#Privacy_Right"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rivest-Shamir-Adleman"/>
+        <Class IRI="#Data_Encryption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensitive_Data"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Encryption_Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Survey"/>
+        <Class IRI="#Manual_Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Webform"/>
+        <Class IRI="#Ditital_Data"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anonymization</IRI>
+        <Literal>Anonymization is the subclass of Data Protection remove or modify personal data to prevent the identification of individuals, ensuring privacy protection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Data_Collection</IRI>
+        <Literal>Subclass of Privacy Policy that shows how data is collected, including whether it is manually or automatically gathered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Data_Encryption</IRI>
+        <Literal>Data Encryption is subclass of Data Protection  Protects data from unauthorized access by converting it into a coded format.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Data_Usage</IRI>
+        <Literal>subclass of privacy policy indicating how to use data by taking care of privacy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Encryption_Tools</IRI>
+        <Literal>Subclass of privacy tools, the represents physical devices and soft based tools that are used to secure data .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Personal_Data</IRI>
+        <Literal>A subclass of PErsonal Data that can be used to identify an individuals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Privacy_Setting</IRI>
+        <Literal>Subclass of privacy tools, which shows options that allow data subjects to manage their privavy preference.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Right_to_Access</IRI>
+        <Literal>The Right to Acces shows , the legal right of a data subject to request and receive information about the personal data held by an organization and how it is being used.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Right_to_Esasure</IRI>
+        <Literal>The subclass of Privacy Right that expresses legal right of a data subject to request the deletion or removal of their personal data from an organization’s systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sensitive_Data</IRI>
+        <Literal>It is also a subclass of Data which includes more private data, like, Financial information.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
